@@ -1,0 +1,88 @@
+p {
+  font-family: Lato;
+}
+
+
+.layout-header {
+  background: rgb(235, 206, 187);
+  display: block;
+  height: 30px;
+}
+
+.layout-sidebar {
+  background: rgb(197, 223, 224);
+  width: 100px;
+  min-height: 300px;
+  z-index: 2;
+  position: relative;
+}
+
+.layout-content {
+  z-index: 1;
+  background: rgb(198, 224, 197);
+  padding-left: 100px;
+  box-sizing: border-box;
+  width: 100%;
+  top: 30px;
+  position: absolute;
+  min-height: 300px;
+}
+
+::ng-deep .layout-sidebar li>a {
+  color: red;
+}
+
+.movetop {
+  background-color: black;
+  border: 1px solid white;
+  color: white;
+  padding: 10px;
+  border-radius: 20px;
+  position: fixed;
+  right: 20px;
+  bottom: 50px;
+}
+
+.stitcky1 {
+  background-color: rgb(5, 5, 5);
+  padding: 5px;
+  width: 50%;
+  margin: 0 auto;
+  color: wheat;
+  text-align: center;
+  position: sticky;
+  top: 0;
+  font-weight: bold;
+  z-index: 1;
+}
+
+.card {
+  width: 300px;
+  text-align: center;
+  border: 1px solid rgb(196, 188, 188);
+  border-radius: 10px;
+  margin: 0 auto;
+  padding: 5px;
+}
+
+.img-header {
+  position: relative;
+}
+
+.img-header > img {
+  width: 100%;
+  box-sizing: border-box;
+  height: 150px;
+  border-radius: 10px;
+}
+
+.img-header .discount {
+  color: white;
+  position: absolute;
+  top: 2px;
+  left: 5px;
+}
+
+.test::before {
+     content: "dfdfdd";
+}

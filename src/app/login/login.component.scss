@@ -1,0 +1,50 @@
+#container {
+    .login {
+         width: 200px;
+         border: 1px solid rgb(128, 123, 123);
+         padding: 20px;
+         text-align: center;
+         margin: 20px auto;
+         border-radius: 5px;
+    }
+    .login-img{
+         width: 100%;
+    }
+
+    .input-field{
+        width: 100%;
+        box-sizing: border-box;
+       // height: 20px;
+    }
+   
+    .login-btn{
+        background-color:rgb(22, 23, 24);
+        border: 1px solid black;
+        padding: 5px; 
+        width: 100%;
+        color: white;
+        box-sizing: border-box;
+    }
+    
+}
+
+.check{
+   //  width: 20%;
+     margin: 0 auto;
+     box-sizing: border-box;
+}
+
+//  div p {
+//     background-color: red;
+//  }
+
+//  .child > p {
+//      background-color: green;
+//  }
+
+//  .child + span{
+//     background-color: black;
+//  }
+//  .child ~ span {
+//     background-color: aqua;
+//  }
