@@ -41,6 +41,7 @@ export class AppComponent implements OnInit, OnDestroy{
     let value = 0;
      //return basic observable
 const sample = (val:any) => of(val).pipe(delay(5000));
+//dfdf
 //convert basic observable to promise
 const example = sample('First Example').toPromise().then((result:any) => {
     console.log('From Promise:', result);
